@@ -4,7 +4,7 @@ services:
   web:
     build: .
     ports:
-      - "3000:3000"
+      - "2106:2106"
     environment:
       - MONGODB_URI=${MONGODB_URI}
     volumes:
